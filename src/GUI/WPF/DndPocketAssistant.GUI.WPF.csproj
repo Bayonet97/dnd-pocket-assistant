@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>DndPocketAssistantClient</AssemblyName>
+    <StartupObject>DndPocketHelper.GUI.WPF.App</StartupObject>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Raphael23/dnd-pocket-assistant</RepositoryUrl>
+  </PropertyGroup>
+</Project>
