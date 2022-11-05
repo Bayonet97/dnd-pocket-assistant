@@ -4,13 +4,8 @@ namespace DndPocketAssistant.StatRoller.API.Hubs;
 
 public class StatRollerHub : Hub
 {
-    private KeyValuePair<Guid, string> creatorNameById;
-    private IDictionary<Guid, string> playerNamesById;
-
-    public StatRollerHub()
-    {
-        playerNamesById = new Dictionary<Guid, string>();
-    }
+    private static KeyValuePair<Guid, string> creatorNameById;
+    private static IDictionary<Guid, string> playerNamesById = new Dictionary<Guid, string>();
 
     public async Task CreateLobby(string creatorName)
     {
@@ -37,9 +32,9 @@ public class StatRollerHub : Hub
         }
     }
 
-    public async Task EditConfiguration()
+    public async Task StartSession()
     {
-
+        // TODO: Receive configured values and create a Statroller instance based on them.
     }
 
     public async Task RollStats(string user)
