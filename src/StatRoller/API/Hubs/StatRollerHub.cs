@@ -11,7 +11,7 @@ public class StatRollerHub : Hub
     {
         if (creatorNameById.Key != Guid.Empty)
         {
-            await Clients.Caller.SendAsync("ConnectionError", "A lobby already exists.");
+           throw new HubException("A lobby already exists.");
         }
 
         var creatorId = Guid.NewGuid();
@@ -28,7 +28,7 @@ public class StatRollerHub : Hub
 
         if (!isNewPlayer)
         {
-            await Clients.Caller.SendAsync("ConnectionError", "You are already in the lobby.");
+            throw new HubException("You are already in the lobby.");
         }
     }
 
