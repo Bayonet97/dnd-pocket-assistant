@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndPocketAssistant.GUI.WPF", "GUI\WPF\DndPocketAssistant.GUI.WPF.csproj", "{D57CF285-78F1-4F97-BCA5-FE106AEB60B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndPocketAssistant.Player.GUI", "GUI\WPF\DndPocketAssistant.Player.GUI.csproj", "{D57CF285-78F1-4F97-BCA5-FE106AEB60B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GUI", "GUI", "{ABA2DBAC-4CB5-4A4C-BD29-320A2E343F92}"
 EndProject
@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndPocketAssistant.StatRoll
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndPocketAssistant.StatRoller.API", "StatRoller\API\DndPocketAssistant.StatRoller.API.csproj", "{BEEA427F-B50E-4CCF-93AA-CA14E924FBA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DndPocketAssistant.GUI.Console", "GUI\Console\DndPocketAssistant.GUI.Console.csproj", "{29296369-782D-49F2-974F-34E6EB38FA22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndPocketAssistant.GUI.Console", "GUI\Console\DndPocketAssistant.GUI.Console.csproj", "{29296369-782D-49F2-974F-34E6EB38FA22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
